@@ -15,15 +15,17 @@ This project predicts the daily average temperature for the next 15 days using a
    ```
 ## How to Run
 
-1. **Collect Data**
+1. **Set the latitude and longitude values in `data_collection.py` to match the target location.**
+   
+2. **Collect Data**
    ```bash
    py -3.12 data_collection.py
    ```
-2. **Pre-process Data**
+3. **Pre-process Data**
    ```bash
    py -3.12 preprocessing.py
    ```
-3. **Train Model and Predict**
+4. **Train Model and Predict**
    ```bash
    py -3.12 model.py
    ```
